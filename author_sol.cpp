@@ -8,7 +8,7 @@ int main() {
 	long long t, s, x;
 	cin >> t >> s >> x;
 	long long ans = t;
-	// check if 't' already equal to 'x'
+	// check if 't' is already equal to 'x'
 	if (ans == x) {
 		cout << "YES" << '\n';
 		return 0;
